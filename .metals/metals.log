@@ -22412,3 +22412,25 @@ WARNING: Unmatched cancel notification for request id 795
 2023.04.10 12:14:56 INFO  compiling acme (54 java sources)
 2023.04.10 12:14:56 INFO  time: compiled ACME in 4ms
 2023.04.10 12:14:56 ERROR Unexpected error when compiling ACME: 'error: invalid target release: 19'
+2023.04.10 15:32:33 INFO  Started: Metals version 0.11.11 in workspace '/home/nairon/Documents/Master's Degree Software Engineering/Integration Systems/acme' for client Visual Studio Code 1.77.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/nairon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.10 15:32:35 INFO  time: initialize in 1.67s
+2023.04.10 15:32:40 INFO  Attempting to connect to the build server...
+2023.04.10 15:32:40 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/nairon/.bloop/bloop.json
+2023.04.10 15:32:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/nairon/Documents/Master's Degree Software Engineering/Integration Systems/acme/.metals/bsp.trace.json or /home/nairon/.cache/metals/bsp.trace.json
+Apr 10, 2023 3:32:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.04.10 15:32:41 INFO  time: Connected to build server in 1.49s
+2023.04.10 15:32:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.10 15:32:42 INFO  time: Imported build in 0.15s
+2023.04.10 15:32:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default-java/src.zip, /usr/lib/jvm/default-java/lib/src.zip. Java symbols will not be available.
+2023.04.10 15:32:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default-java/src.zip, /usr/lib/jvm/default-java/lib/src.zip. Java symbols will not be available.
+2023.04.10 15:32:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/default-java/src.zip, /usr/lib/jvm/default-java/lib/src.zip. Java symbols will not be available.
+2023.04.10 15:32:47 INFO  time: indexed workspace in 6.82s
+2023.04.10 15:32:48 WARN  no build target for: /home/nairon/Documents/Master's Degree Software Engineering/Integration Systems/acme/src/main/java/com/isep/acme/controllers/FileController.java
+2023.04.10 15:32:48 WARN  no build target for: /home/nairon/Documents/Master's Degree Software Engineering/Integration Systems/acme/src/main/java/com/isep/acme/controllers/FileController.java
